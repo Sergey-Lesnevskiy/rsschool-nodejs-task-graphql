@@ -1,6 +1,6 @@
 import { GraphQLEnumType } from 'graphql/type/index.js';
 
-export const MyMemberTypeId = new GraphQLEnumType({
+export const MemberTypeId = new GraphQLEnumType({
   name: 'MemberTypeId',
   values: {
     basic: {
